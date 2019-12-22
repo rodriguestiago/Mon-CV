@@ -1,0 +1,114 @@
+body{
+    font-family: Corbel, sans-serif;
+}
+article{
+    width: 50%;
+    height: 1000px;
+    margin: auto;
+    border: 1px solid black;
+}
+header{
+    width: 70%;
+    float: right;
+}
+header h1{
+    width: 200px;
+   font-size: 2.2vw;
+    display: inline-block;
+    color: rgb(36, 64, 97);
+}
+header h2{
+    display: inline-block;
+    color: rgb(36, 64, 97);
+}
+.photo img{
+    width: 20%;
+    height: 25%;
+    margin-top: 7%;
+    margin-left: 5%;
+    border: 6px solid black;
+    border-top-left-radius: 80px ;
+    border-top-right-radius: 80px ;
+    border-bottom-left-radius: 80px ;
+    border-bottom-right-radius: 80px;
+}
+.empty{
+    border: 2px solid rgb(33, 79, 135);
+    border-bottom: none;
+    width: 100%;
+    height: 100px;
+    margin-top: -100px;
+    margin-left: -2px;
+    background-color: rgb(85, 142, 213);  
+}
+.left-section{
+    border: 2px solid rgb(33, 79, 135);;
+    width: 40%;
+    height: 740px;
+    background-color: rgb(85, 142, 213); 
+}
+.left-section-p a{
+    color: white;
+}
+.left-section-p a:hover{
+    text-decoration: none;
+}
+.right-section{
+    width: 29.8%;
+    float: right;
+    position: absolute;
+    top: 19.3%;
+    left: 45.2%;
+}
+.left-section h3{
+    font-size: 1.3vw;
+    margin-left: 20px;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+}
+.right-section h3{
+    font-size: 1.3vw;
+    margin-left: 80px;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+}
+.left-section-rows{
+    background-color: rgb(33, 79, 135);
+}
+.left-section-p{
+    font-weight: 700;
+    margin-left: 20px;
+    color: white;
+    line-height: 10px;
+    margin-bottom: 30px;
+}
+.right-section-rows{
+    width: 99.5%;
+    background-color: rgb(33, 79, 135);
+}
+.right-section-p{
+    font-family: Cambria;
+    margin-left: 80px;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+.right-section-p p{
+    margin: 0;
+}
+ul{
+    padding: 0 0 0 20px;
+}
+h4{
+    margin-bottom: 2px;
+}
+.loisirs-icon p{
+    display: inline-block;
+    width: 25%;
+    height: 60px;
+    text-align: center;
+}
+.loisirs-icon{
+    margin-left: 60px;
+}
